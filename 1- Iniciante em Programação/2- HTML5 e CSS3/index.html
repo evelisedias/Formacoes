@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/Main.css">
+
+    <!--Responsividade-->
+    <link rel="stylesheet" href="style/reponsive.css">
+
+    <!--Owl css-->
+    <link rel="stylesheet" href="style/Owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/Owl/owl.theme.default.min.css">
+
+    <title>Barber House</title>
+
+</head>
+<body>
+
+
+<header>
+
+        <div class="banner">
+            <img class="logo" src="img/1-logo.png">
+            //criar um scroll
+            <div class="container">
+                <nav>
+                    <a href="/sobre">Sobre</a>
+                    <a href="#">Serviços</a>
+                    <a href="#">Produtos</a>
+                    <a href="#">Onde nos encontrar</a>
+                    <a href="#">O que falam sobre nós</a>
+                </nav>
+            </div>
+            <img class="banner" src="img/3-ambiente1.png">
+        </div>
+
+
+</header>
+
+<div class="sobre">
+    <h2>Sobre a Barber House</h2>
+    <p>
+        Fundada em 2017, a Barber House já é destaque na cidade e conquista novos clientes todos os dias.
+    </p>
+    <p id="missao">
+        <strong>Nossa missão é <em>proporcionar auto-estima e qualidade de vida aos nossos clientes</em>
+        </strong></p>
+
+</div>
+
+    <div class="carrosel-podcast">
+        <div class="owl-carousel owl-theme">
+
+            <div class="item">
+                <img class="box-podcast" src="img/4-Carrousel2.png" alt="Nerdcast" srcset="" onclick="nerdcast()">
+            </div>
+            <div class="item">
+                <img class="box-podcast" src="img/4-Carrousel3.png" alt="Flow" srcset="" onclick="flow()">
+            </div>
+            <div class="item">
+                <img class="box-podcast" src="img/4-Carrousel5.png" alt="Só ouço falar" srcset="" onclick="lez()">
+            </div>
+            <div class="item">
+                <img class="box-podcast" src="img/4-Carrousel4.png" alt="Podpah" srcset="" onclick="podpah()">
+            </div>
+            <div class="item">
+                <img class="box-podcast" src="img/4-Carrousel.png" alt="Pretinho" srcset="" onclick="pretinho()">
+            </div>
+            <div class="item">
+                <img class="box-podcast" src="img/4-Carrousel6.png" alt="Achismo" srcset="" onclick="achismo()">
+            </div>
+            <div class="item">
+                <img class="box-podcast" src="img/4-Carrousel7.png" alt="Eu fico loko" srcset="" onclick="euficoloko()">
+            </div>
+            <div class="item">
+                <img class="box-podcast" src="img/4-Carrousel8.png" alt="Mini" srcset="" onclick="mini()">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+<script src="https://kit.fontawesome.com/90dc8c0810.js" crossorigin="anonymous"></script>
+<script src="js/Owl/jquery.min.js"></script>
+<script src="js/Owl/owl.carousel.min.js"></script>
+<script src="js/Owl/setup.js"></script>
+<script src="js/Owl/main.js"></script>
+</body>
+</html>
