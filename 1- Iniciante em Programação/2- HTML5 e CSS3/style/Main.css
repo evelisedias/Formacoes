@@ -8,6 +8,8 @@
     background: linear-gradient(to right, #434343, #000000);
 
    }
+   
+@media (max-widht 400px)
 
 body{
     font-family: 'Times New Roman', arial, serif;
