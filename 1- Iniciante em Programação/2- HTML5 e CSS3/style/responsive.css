@@ -1,0 +1,12 @@
+
+@media screen and (min-width: 200px) {
+    .container {
+      margin: 1em 2em;
+    }
+
+    .navbar{
+
+      font-size: 20px;
+      
+    }
+  }
