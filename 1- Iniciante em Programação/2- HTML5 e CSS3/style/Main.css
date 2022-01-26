@@ -1,211 +1,48 @@
 *{
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
-
-    background: hsl(0, 0%, 0%);
-    background: -webkit-linear-gradient(to right, #434343, #000000);
-    background: -webkit-linear-gradient(to right, rgb #000000, #434343);
-
-   }
-
-body{
-    font-family: 'Times New Roman', arial, serif;
-  }
-
-/*nav bar*/
-
-header{
-    padding: 40px;
+margin: 0;
+padding: 0;
 
 }
+main{
+    display: block;
 
-header .container{
-    display: center;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 40px;
 }
-
-header nav a{
-
-    text-decoration: none;
-    color: grey;
-    margin-right: 10px;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-header nav a:hover{
-    color: white;
-    text-decoration:underline;
-}
-
-.navbar{
-    font-size: 30px;
-    text-align: center;
-    color: #FFFFFF;
- }
-
-/* logo */
-.logo{
-       border-radius: 50%;
-        height: 100px;
-}
-
-/*banner*/
-#banner{
-          margin-top: 30px;
-          background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-          background-size: cover;
-          background-position: center;
-          height: 50vh; /* Fallback para navegadores que não suportam gradientes CSS */
-          width: 100%;
-          position: relative; /* Para que o banner fique no centro */
-      }
-
-/*Sobre*/
-
-h2{
-    color: white;
-    text-align: center;
-    height: 45px;
-    padding-top: 20px;
-}
-.sobre{
+header, #banner{
     
+    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('\1- Iniciante em Programação\2- HTML5 e CSS3\img\maua.png');
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    top: 0;
+    }
+
+header .logo{
+    width: 15rem;
+    border-radius: 50%;
+}
+
+header .navbar{
     position: absolute;
-    width:  100%;
-    margin: 0 auto;
-    top: 450px;
-     border: 5px solid white;
-     padding: 1em;
-    color: white;
-     font-size: 25px;
-
-}
-
-#missao{
-    margin-top: 1cm;
-    padding: 2cm;
-    text-align: justify;
-   
-
-}
-
-
-/*Carrosel*/
-.item{
-    height: 350px;
-}
-
-h3{
-  margin: 30px;
-  font-size: 35px;
-  color: rgb(255, 255, 255);
-  text-align: center;
-  text-transform: capitalize;
- 
-}
-
-
-.service{
-    margin-top: 100px;
-
-}
-
-.lista{
-    margin: 50px;
-    color:white;
-    font-size: 20px;
-}
-
-/*Produtos*/
-
-h3{
-
-    margin: 3cm;
-
-}
-.Briefing, .descricao {
-    border: 5px solid white;
-    font-size: 20px;
-    color: white;
-    margin-top: 10px;
-    text-align: justify;
-    margin-left: 2cm;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   
-    }
-
-.container{
-   
-    display: inline-table;
-    padding: 3cm;
-    margin-bottom: 2cm;
+    top: 1rem;
+    right: 7rem;
+    font-size: 1cm;
+    text-align: space-between;
     
-    }
-
-.produtos{
-    display: inline-table;
-    text-align: justify;
-    margin-top: 5px;
-    color: #FFFFFF;
-}
-
-.pomada1, .balm, .pomada{
-width: 250px;
-color: #FFFFFF;
-}
-
-h4 {
     
-    color: white;
-    font-size: 25px;
-    }
-
-
-
-/*avaliação*/
-.avaliacao{
-    margin-top: 3cm;
-    margin-bottom: 3cm;
-
-
-    }
-
-.esquerda{
-    display: inline-table;
-    margin-left: 4cm;
-    margin-bottom: 2cm;
 }
-
-.direita{
-    display: inline-table;
-    margin-left: 4cm;
-    align-items: center;
-    display: inline-flex;
-    align-items: center;
-}
-
-/*local*/
-
-.local{
-    margin-left: 8cm;
-     width: 50rem;
-     display: inline-table;
-     max-width: 730px;
-     width: 728px;
-     margin-top: 20px;
-
-    }
-
-.endereco{
-    margin-left: 8cm;
-    color: white;
-    font-size:20px;
-    text-align: center;
+a {
+    color: rgb(255, 255, 255);
     text-decoration: none;
+   
+    
+}
+a:hover{
+    color: rgb(170, 62, 62);
+    text-decoration: underline;
+    text-transform: color .5s;
+}
+
+#banner{
+    position: relative;
 
 }
