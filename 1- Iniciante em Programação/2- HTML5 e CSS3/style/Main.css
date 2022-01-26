@@ -9,7 +9,7 @@ main{
 }
 header, #banner{
     
-    background-image: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('\1- Iniciante em Programação\2- HTML5 e CSS3\img\maua.png');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/1- Iniciante em Programação/2- HTML5 e CSS3/img/maua.png');
     height: 90vh;
     width: 100%;
     background-position: center;
