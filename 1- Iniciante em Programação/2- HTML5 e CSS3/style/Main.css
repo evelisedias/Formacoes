@@ -21,10 +21,9 @@ header .navbar{
     position: absolute;
     top: 7rem;
     right: 7rem;
-    font-size: 1cm;
+    font-size: .7cm;
     text-align: space-between;
-    
-    
+       
 }
 a {
     color: rgb(255, 255, 255);
@@ -52,17 +51,18 @@ body{
     
     text-decoration: underline #ffff;
     text-shadow: black;
-    margin-left: 20cm;
+    margin-left: 12cm;
     margin-top: 3cm;
     display: inline-block;
     text-align: center;
-    font-size: 5rem;
+    font-size: 4rem;
     
 }
 
-.missao, .lista{
-    margin-left: 30rem;
+.missao, .lista, .Briefing{
+    margin-left: 3cm;
     margin-top: 3cm;
+    margin-right: 2cm;
     margin-bottom: 3cm;
     font-size: 3rem;
     color: #ffff;
@@ -70,77 +70,83 @@ body{
 }
 
 /*Serviços*/
-.service{
+.service h3{
     color: #ffff;
-    margin-left: 3cm;
-    
+    margin-left: 22cm;
+    text-decoration: underline;
     display: inline-block;
     text-align: center;
     font-size: 5rem;
-    
 }
+
+li{
+    list-style: none;
+    margin-left: 3cm;
+
+}
+
 /*Cortes*/
-.item{
-    height: 550px;
+
+.item {
+    height: 350px;
 }
 
 /*Produtos*/
 
 .container{
     display: flex;
+    font-size: 1.8rem;
+    
+    
     }
+.container h4{
+    font-size: 2em;
+}
 
 .produto{
- height: 30rem;
- float: left;
- margin-left: 3rem;
- 
+    height: 30rem;
+    float: left;
+    margin-left: 3rem;
+ }
 
-       }
-
-
-.pomada1, .balm, .pomada,{
-width: 450px;
-margin-top: 3cm;
+.pomada1, .balm, .pomada, {
+    width: 450px;
+    margin-top: 3cm;
+      
 }
 
-.pomada1, .balm, .pomada, h3{
-font-size: 2rem;
-margin: 1cm;
 
-}
 
-h3{
-font-size: 3rem;
-
-}
-
-.Briefing{
-    font-size: 1cm;
-    margin-left: 10rem;
-    text-align: justify;
-    }
 
 /*avaliação*/
-.avaliacao h3{
-    margin-left: 25cm;
+
+h3{
+    font-size: 5rem;
+    margin-left: 22cm;
+    margin-top: 3cm;
+    text-decoration: underline;
+}
+
+.aval h3{
+    margin-left: 15cm;
+    margin-bottom: 3cm;
+    font-size: 4rem;
+
 }
 .avaliacao{
-
-    width: 45rem
+   
+    width: 45rem;
     float: flex;
-    margin: 10px
-
-
+    margin: 10px;
     }
 
 /*local*/
 
 .local h3{
-margin-top: 3cm;
-margin-bottom: 3cm;
-color: #000;
-font-size: 2cm
+    margin-top: 3cm;
+    margin-bottom: 3cm;
+    color: #000;
+    font-size: 5rem;
 }
 .local{
     
