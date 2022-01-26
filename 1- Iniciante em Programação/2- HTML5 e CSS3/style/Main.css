@@ -1,19 +1,15 @@
 *{
 margin: 0;
 padding: 0;
+color: #ffff;
 
 }
-main{
-    display: block;
+/*header*/
 
-}
-header, #banner{
+header{
     
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/1- Iniciante em Programação/2- HTML5 e CSS3/img/maua.png');
-    height: 90vh;
-    width: 100%;
-    background-position: center;
-    top: 0;
+    background: linear-gradient(rgba(49, 49, 49, 0.5),rgba(80, 79, 79, 0.5), rgba(255, 255, 255, 0.5)100%), url('/1- Iniciante em Programação/2- HTML5 e CSS3/img/maua.png');
+   
     }
 
 header .logo{
@@ -23,7 +19,7 @@ header .logo{
 
 header .navbar{
     position: absolute;
-    top: 1rem;
+    top: 7rem;
     right: 7rem;
     font-size: 1cm;
     text-align: space-between;
@@ -32,9 +28,7 @@ header .navbar{
 }
 a {
     color: rgb(255, 255, 255);
-    text-decoration: none;
-   
-    
+    text-decoration: none;    
 }
 a:hover{
     color: rgb(170, 62, 62);
@@ -44,5 +38,121 @@ a:hover{
 
 #banner{
     position: relative;
+    height: 85vh;
+    width: 100%;
+}
+
+/*Body*/
+body{
+    background: linear-gradient(rgba(49, 49, 49, 0.5),rgba(80, 79, 79, 0.5), rgba(255, 255, 255, 0.5)100%)
+
+}
+/*Sobre e Missão*/
+.sobre {
+    
+    text-decoration: underline #ffff;
+    text-shadow: black;
+    margin-left: 20cm;
+    margin-top: 3cm;
+    display: inline-block;
+    text-align: center;
+    font-size: 5rem;
+    
+}
+
+.missao, .lista{
+    margin-left: 30rem;
+    margin-top: 3cm;
+    margin-bottom: 3cm;
+    font-size: 3rem;
+    color: #ffff;
+
+}
+
+/*Serviços*/
+.service{
+    color: #ffff;
+    margin-left: 3cm;
+    
+    display: inline-block;
+    text-align: center;
+    font-size: 5rem;
+    
+}
+/*Cortes*/
+.item{
+    height: 550px;
+}
+
+/*Produtos*/
+
+.container{
+    display: flex;
+    }
+
+.produto{
+ height: 30rem;
+ float: left;
+ margin-left: 3rem;
+ 
+
+       }
+
+
+.pomada1, .balm, .pomada,{
+width: 450px;
+margin-top: 3cm;
+}
+
+.pomada1, .balm, .pomada, h3{
+font-size: 2rem;
+margin: 1cm;
+
+}
+
+h3{
+font-size: 3rem;
+
+}
+
+.Briefing{
+    font-size: 1cm;
+    margin-left: 10rem;
+    text-align: justify;
+    }
+
+/*avaliação*/
+.avaliacao h3{
+    margin-left: 25cm;
+}
+.avaliacao{
+
+    width: 45rem
+    float: flex;
+    margin: 10px
+
+
+    }
+
+/*local*/
+
+.local h3{
+margin-top: 3cm;
+margin-bottom: 3cm;
+color: #000;
+font-size: 2cm
+}
+.local{
+    
+     display: inline-block;
+     max-width: 730px;
+     width: 728px;
+     margin-top: 10px;
+
+    }
+
+.endereco{
+    color: white;
+    font-size:20px;
 
 }
