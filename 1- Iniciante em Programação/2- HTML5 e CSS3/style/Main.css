@@ -21,7 +21,7 @@ header .navbar{
     position: absolute;
     top: 7rem;
     right: 7rem;
-    font-size: .7cm;
+    font-size: 3rem;
     text-align: space-between;
        
 }
@@ -47,22 +47,25 @@ body{
 
 }
 /*Sobre e Missão*/
-.sobre {
-    
+.caixa, .service{
+    margin: 2cm;
+    border: solid #ffff 1em;
+    border-radius: 2%;
+    border-style: double;
+}
+.sobre h2, .service h3{
+    justify-content: center;
+    text-align: center;
     text-decoration: underline #ffff;
     text-shadow: black;
-    margin-left: 12cm;
-    margin-top: 3cm;
-    display: inline-block;
-    text-align: center;
-    font-size: 4rem;
-    
+    margin: 2cm;
+    font-size: 4rem; 
 }
 
-.missao, .lista, .Briefing{
-    margin-left: 3cm;
+.sobre, .missao, .lista, .Briefing{
+    justify-content: center;
+    text-align: center;
     margin-top: 3cm;
-    margin-right: 2cm;
     margin-bottom: 3cm;
     font-size: 3rem;
     color: #ffff;
@@ -70,25 +73,19 @@ body{
 }
 
 /*Serviços*/
-.service h3{
-    color: #ffff;
-    margin-left: 22cm;
-    text-decoration: underline;
-    display: inline-block;
-    text-align: center;
-    font-size: 5rem;
-}
 
 li{
     list-style: none;
     margin-left: 3cm;
+    justify-content: center;
+    text-align: justify;
 
 }
 
 /*Cortes*/
 
 .item {
-    height: 350px;
+    height: 500px;
 }
 
 /*Produtos*/
